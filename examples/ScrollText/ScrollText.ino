@@ -61,11 +61,11 @@ void setup() {
 void loop() {
   
   // Scroll text 2 times (blocking)
-  Plex.scrollText("Hello. :)", 2, true);
+  Plex.scrollText("~  HAVE YOU PLAYED ATARI TODAY?", 1, true);
   
-  // Scroll text until we stop it
+/*   // Scroll text until we stop it
   Plex.scrollText("Let's scroll!");
   delay(10000);
   Plex.stopScrolling();
-  delay(1000);
+  delay(1000); */
 }

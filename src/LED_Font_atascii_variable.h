@@ -37,7 +37,7 @@
   
   
 */
-static const unsigned char c_sp[] PROGMEM = { 1  };
+static const unsigned char c_sp[] PROGMEM = { 1 , 0 };
 static const unsigned char c_ex[] PROGMEM = { 2 , 94 , 94 };
 static const unsigned char c_qt[] PROGMEM = { 6 , 14 , 14   , 14 , 14 };
 static const unsigned char c_ha[] PROGMEM = { 8 , 36 , 126 , 126 , 36 , 36 , 126 , 126 , 36 };
@@ -101,7 +101,7 @@ static const unsigned char c_bs[] PROGMEM = { 6  , 6 , 12 , 24 , 48 , 96 , 64  }
 static const unsigned char c_cb[] PROGMEM = { 4  , 66 , 66 , 126 , 126    };
 static const unsigned char c_ct[] PROGMEM = { 7  , 16 , 24 , 12 , 6 , 12 , 24 , 16 };
 static const unsigned char c_us[] PROGMEM = { 7  , 64 , 64 , 64 , 64 , 64 , 64 , 64 };
-static const unsigned char c_ga[] PROGMEM = { 8 , 96, 120, 15, 127, 127, 15, 120, 96  };
+static const unsigned char c_ga[] PROGMEM = { 6  ,  24 , 60 , 126 , 126 , 60 , 24  };
 static const unsigned char c_a[] PROGMEM =  { 6  , 32 , 116 , 84 , 84 , 124 , 120  };
 static const unsigned char c_b[] PROGMEM =  { 6  , 126 , 126 , 72 , 72 , 120 , 48  };
 static const unsigned char c_c[] PROGMEM =  { 5  , 56 , 124 , 68 , 68 , 68   };
@@ -128,10 +128,10 @@ static const unsigned char c_w[] PROGMEM =  { 7  , 28 , 124 , 112 , 56 , 112 , 1
 static const unsigned char c_x[] PROGMEM =  { 6  , 68 , 108 , 56 , 56 , 108 , 68  };
 static const unsigned char c_y[] PROGMEM =  { 6  , 78 , 94 , 80 , 112 , 62 , 30  };
 static const unsigned char c_z[] PROGMEM =  { 6  , 68 , 100 , 116 , 92 , 76 , 68  };
-static const unsigned char c_oc[] PROGMEM = { 7 , 96, 120, 15, 127, 127, 15, 120, 96 };
-static const unsigned char c_vb[] PROGMEM = { 1 ,0 };
-static const unsigned char c_cc[] PROGMEM = { 1, 0 };
-static const unsigned char c_tl[] PROGMEM = { 1, 0 };
+static const unsigned char c_oc[] PROGMEM = { 6  , 24 , 92 , 126 , 126 , 92 , 24 };
+static const unsigned char c_vb[] PROGMEM = { 2 , 127, 127 };
+static const unsigned char c_cc[] PROGMEM = { 6 , 62 , 62, 14, 30, 122, 114 };
+static const unsigned char c_tl[] PROGMEM = { 8 , 96, 120, 15, 127, 127, 15, 120, 96 };
 
 
 /* Pointers to characters */
