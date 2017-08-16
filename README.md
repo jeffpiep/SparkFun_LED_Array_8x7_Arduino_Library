@@ -5,6 +5,8 @@ Edit the "SparkFun_LED_8x7.h" file to choose:
 * ATASCII variable width
 * Original Font_1
 
+**Check out the "atascii" sketch in the Examples directory.**
+
 SparkFun LED Array - 8x7 Arduino Library
 ===============================================
 
