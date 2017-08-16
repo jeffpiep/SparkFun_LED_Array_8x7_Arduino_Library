@@ -7,6 +7,9 @@ Edit the "SparkFun_LED_8x7.h" file to choose:
 
 **Check out the "atascii" sketch in the Examples directory.**
 
+Origional Sparkfun README follows...
+==================================
+
 SparkFun LED Array - 8x7 Arduino Library
 ===============================================
 
